@@ -1,7 +1,7 @@
 {
-  "name": "todo",
+  "name": "blog",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple blog application with next.js and material-ui",
   "main": "index.js",
   "scripts": {
     "dev": "next",
@@ -9,11 +9,12 @@
     "start": "next start"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Duy Nguyen <aduyng@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "@material-ui/core": "^3.2.1",
-    "material-ui": "^0.20.2",
+    "@material-ui/icons": "^3.0.1",
+    "isomorphic-fetch": "^2.2.1",
     "next": "^7.0.2",
     "react": "^16.5.2",
     "react-dom": "^16.5.2"
